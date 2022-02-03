@@ -18,9 +18,13 @@ public class Main {
         for (String c : splitter) {
             switch (c) {
                 case "<" : x -= 1;
+                    break;
                 case ">" : x += 1;
+                    break;
                 case "v" : y -= 1;
+                    break;
                 case "^" : y += 1;
+                    break;
             }
             final Coordinates coordinate = new Coordinates(x, y);
             set.add(coordinate);
