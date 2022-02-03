@@ -29,6 +29,6 @@ public class Main {
             final Coordinates coordinate = new Coordinates(x, y);
             set.add(coordinate);
         }
-        System.out.println(set.size()+1);
+        System.out.println(set.size());
     }
 }
